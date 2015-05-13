@@ -193,7 +193,7 @@
     <!-- From: file:/C:/Users/Christine/Desktop/CHRISTINE/Computer%20Science/Android/BeatTHIS/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
-    <string name="app_name">Awesome Music Selector App</string>
+    <string name="app_name">Beat THIS!</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_second">SecondActivity</string>
     <!-- From: file:/C:/Users/Christine/Desktop/CHRISTINE/Computer%20Science/Android/BeatTHIS/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml -->
@@ -211,7 +211,7 @@
             backward-compatibility can go here.
         -->
     </style>
-    <style name="AppTheme" parent="AppBaseTheme">
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
     <!-- From: file:/C:/Users/Christine/Desktop/CHRISTINE/Computer%20Science/Android/BeatTHIS/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml -->

@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -14,6 +15,8 @@ import android.widget.Button;
 public class MainActivity extends ActionBarActivity {
 	
 	Button b1, b2, b3, b4, b5, b6, b7, b8;
+    private MediaPlayer m1, m2, m3, m4, m5, m6, m7, m8;
+    //private MediaPlayer[] allMPlayers = new MediaPlayer[]{m1, m2, m3, m4, m5, m6, m7, m8};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,33 +36,191 @@ public class MainActivity extends ActionBarActivity {
     }
 
     private void createListeners() {
-    	b1.setOnClickListener(new OnClickListener() {
+        /*b1.setOnClickListener(new OnClickListener() {
+            @Override
             public void onClick(View v) {
-                startBeat(1);
+                startBeat(1, m1);
             }
         });
-        
         b2.setOnClickListener(new OnClickListener() {
+            @Override
             public void onClick(View v) {
-            	startBeat(2);
+                startBeat(2, m2);
             }
         });
-        
         b3.setOnClickListener(new OnClickListener() {
+            @Override
             public void onClick(View v) {
-            	startBeat(3);
+                startBeat(3, m3);
             }
         });
-        
         b4.setOnClickListener(new OnClickListener() {
+            @Override
             public void onClick(View v) {
-            	startBeat(4);
+                startBeat(4, m4);
             }
         });
+        b5.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startBeat(5, m5);
+            }
+        });
+        b6.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startBeat(6, m6);
+            }
+        });
+        b7.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startBeat(7, m7);
+            }
+        });
+        b8.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startBeat(8, m8);
+            }
+        });*/
+
+        // following crashes when button is released
+        // MotionEvent.ACTION_UP is not detected
+
+        b1.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if(event.getAction() == MotionEvent.ACTION_DOWN) {
+                    int beat = getBeat(1);
+                    m1 = MediaPlayer.create(MainActivity.this, beat);
+                    m1.start();
+                    return true;
+                } else if (event.getAction() == MotionEvent.ACTION_UP) {
+                    m1.pause();
+                    m1.seekTo(0);
+                    return true;
+                }
+                return false;
+            }
+        });
+        b2.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if(event.getAction() == MotionEvent.ACTION_DOWN) {
+                    int beat = getBeat(2);
+                    m2 = MediaPlayer.create(MainActivity.this, beat);
+                    m2.start();
+                    return true;
+                } else if (event.getAction() == MotionEvent.ACTION_UP) {
+                    m2.pause();
+                    m2.seekTo(0);
+                    return true;
+                }
+                return false;
+            }
+        });
+        b3.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                    int beat = getBeat(3);
+                    m3 = MediaPlayer.create(MainActivity.this, beat);
+                    m3.start();
+                    return true;
+                } else if (event.getAction() == MotionEvent.ACTION_UP) {
+                    m3.pause();
+                    m3.seekTo(0);
+                    return true;
+                }
+                return false;
+            }
+        });
+        b4.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                    int beat = getBeat(4);
+                    m4 = MediaPlayer.create(MainActivity.this, beat);
+                    m4.start();
+                    return true;
+                } else if (event.getAction() == MotionEvent.ACTION_UP) {
+                    m4.pause();
+                    m4.seekTo(0);
+                    return true;
+                }
+                return false;
+            }
+        });
+        b5.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                    int beat = getBeat(5);
+                    m5 = MediaPlayer.create(MainActivity.this, beat);
+                    m5.start();
+                    return true;
+                } else if (event.getAction() == MotionEvent.ACTION_UP) {
+                    m5.pause();
+                    m5.seekTo(0);
+                    return true;
+                }
+                return false;
+            }
+        });
+        b6.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                    int beat = getBeat(6);
+                    m6 = MediaPlayer.create(MainActivity.this, beat);
+                    m6.start();
+                    return true;
+                } else if (event.getAction() == MotionEvent.ACTION_UP) {
+                    m6.pause();
+                    m6.seekTo(0);
+                    return true;
+                }
+                return false;
+            }
+        });
+        b7.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if(event.getAction() == MotionEvent.ACTION_DOWN) {
+                    int beat = getBeat(7);
+                    m7 = MediaPlayer.create(MainActivity.this, beat);
+                    m7.start();
+                    return true;
+                } else if (event.getAction() == MotionEvent.ACTION_UP) {
+                    m7.pause();
+                    m7.seekTo(0);
+                    return true;
+                }
+                return false;
+            }
+        });
+        b8.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if(event.getAction() == MotionEvent.ACTION_DOWN) {
+                    int beat = getBeat(8);
+                    m8 = MediaPlayer.create(MainActivity.this, beat);
+                    m8.start();
+                    return true;
+                } else if (event.getAction() == MotionEvent.ACTION_UP) {
+                    m8.pause();
+                    m8.seekTo(0);
+                    return true;
+                }
+                return false;
+            }
+        });
+
 	}
 
     // play beat when button is pressed
-    private void startBeat(int buttonNum) {
+    private int getBeat(int buttonNum) {
         int beat = 0;
         switch (buttonNum) {
             case 1: beat = R.raw.bassdown;
@@ -81,9 +242,21 @@ public class MainActivity extends ActionBarActivity {
             default: beat = R.raw.bassdown;
                 break;
         }
-        MediaPlayer mPlayer = MediaPlayer.create(MainActivity.this, beat);
-        mPlayer.start();
+        return beat;
+        //mPlayer = MediaPlayer.create(MainActivity.this, beat);
+        //mPlayer.start();
     }
+
+    // only required is onTouchListener doesn't work
+    /*@Override
+    protected void onPause() {
+        super.onPause();
+        for (int i=0; i<allMPlayers.length; i++) {
+            if (allMPlayers[i].isPlaying()) {
+                allMPlayers[i].stop();
+            }
+        }
+    }*/
 
 	@Override
     public boolean onCreateOptionsMenu(Menu menu) {
