@@ -3,24 +3,9 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <!--  -->
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
-        android:layout_height="55dp"
-        android:orientation="horizontal" >
-
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="0dp"
-            android:layout_height="fill_parent"
-            android:layout_weight="50"
-            android:text="One" />
-
-    </LinearLayout>
-
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="fill_parent"
-        android:layout_height="150dp"
+        android:layout_height="177dp"
         android:orientation="horizontal" >
 
     <Button
@@ -57,7 +42,7 @@
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
-        android:layout_height="150dp"
+        android:layout_height="177dp"
         android:orientation="horizontal" >
 
         <Button
