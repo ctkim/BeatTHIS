@@ -95,11 +95,10 @@ public class MainActivity extends ActionBarActivity {
                     int beat = getBeat(1);
                     m1 = MediaPlayer.create(MainActivity.this, beat);
                     m1.start();
+                    m1.setLooping(true);
                     return true;
                 } else if (event.getAction() == MotionEvent.ACTION_UP) {
-                    m1.pause();
-                    m1.seekTo(0);
-                    return true;
+                    m1.release();
                 }
                 return false;
             }
@@ -111,11 +110,10 @@ public class MainActivity extends ActionBarActivity {
                     int beat = getBeat(2);
                     m2 = MediaPlayer.create(MainActivity.this, beat);
                     m2.start();
+                    m2.setLooping(true);
                     return true;
                 } else if (event.getAction() == MotionEvent.ACTION_UP) {
-                    m2.pause();
-                    m2.seekTo(0);
-                    return true;
+                    m2.release();
                 }
                 return false;
             }
@@ -127,11 +125,10 @@ public class MainActivity extends ActionBarActivity {
                     int beat = getBeat(3);
                     m3 = MediaPlayer.create(MainActivity.this, beat);
                     m3.start();
+                    m3.setLooping(true);
                     return true;
                 } else if (event.getAction() == MotionEvent.ACTION_UP) {
-                    m3.pause();
-                    m3.seekTo(0);
-                    return true;
+                    m3.release();
                 }
                 return false;
             }
@@ -143,11 +140,10 @@ public class MainActivity extends ActionBarActivity {
                     int beat = getBeat(4);
                     m4 = MediaPlayer.create(MainActivity.this, beat);
                     m4.start();
+                    m4.setLooping(true);
                     return true;
                 } else if (event.getAction() == MotionEvent.ACTION_UP) {
-                    m4.pause();
-                    m4.seekTo(0);
-                    return true;
+                    m4.release();
                 }
                 return false;
             }
@@ -159,11 +155,10 @@ public class MainActivity extends ActionBarActivity {
                     int beat = getBeat(5);
                     m5 = MediaPlayer.create(MainActivity.this, beat);
                     m5.start();
+                    m5.setLooping(true);
                     return true;
                 } else if (event.getAction() == MotionEvent.ACTION_UP) {
-                    m5.pause();
-                    m5.seekTo(0);
-                    return true;
+                    m5.release();
                 }
                 return false;
             }
@@ -175,11 +170,10 @@ public class MainActivity extends ActionBarActivity {
                     int beat = getBeat(6);
                     m6 = MediaPlayer.create(MainActivity.this, beat);
                     m6.start();
+                    m6.setLooping(true);
                     return true;
                 } else if (event.getAction() == MotionEvent.ACTION_UP) {
-                    m6.pause();
-                    m6.seekTo(0);
-                    return true;
+                    m6.release();
                 }
                 return false;
             }
@@ -191,11 +185,10 @@ public class MainActivity extends ActionBarActivity {
                     int beat = getBeat(7);
                     m7 = MediaPlayer.create(MainActivity.this, beat);
                     m7.start();
+                    m7.setLooping(true);
                     return true;
                 } else if (event.getAction() == MotionEvent.ACTION_UP) {
-                    m7.pause();
-                    m7.seekTo(0);
-                    return true;
+                    m7.release();
                 }
                 return false;
             }
@@ -207,11 +200,10 @@ public class MainActivity extends ActionBarActivity {
                     int beat = getBeat(8);
                     m8 = MediaPlayer.create(MainActivity.this, beat);
                     m8.start();
+                    m8.setLooping(true);
                     return true;
                 } else if (event.getAction() == MotionEvent.ACTION_UP) {
-                    m8.pause();
-                    m8.seekTo(0);
-                    return true;
+                    m8.release();
                 }
                 return false;
             }
