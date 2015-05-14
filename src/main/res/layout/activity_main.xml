@@ -1,67 +1,83 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="145dp"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
     <Button
         android:id="@+id/button1"
         android:layout_width="0dp"
         android:layout_height="fill_parent"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:background="@drawable/custom_button"
+        android:layout_margin="5dp"/>
 
     <Button
         android:id="@+id/button2"
         android:layout_width="0dp"
         android:layout_height="fill_parent"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:background="@drawable/custom_button"
+        android:layout_margin="5dp"/>
 
     <Button
         android:id="@+id/button3"
         android:layout_width="0dp"
         android:layout_height="fill_parent"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:background="@drawable/custom_button"
+        android:layout_margin="5dp"/>
 
     <Button
         android:id="@+id/button4"
         android:layout_width="0dp"
         android:layout_height="fill_parent"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:background="@drawable/custom_button"
+        android:layout_margin="5dp"/>
 
     </LinearLayout>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="145dp"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/button5"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:layout_margin="5dp"/>
 
         <Button
             android:id="@+id/button6"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:layout_margin="5dp"/>
 
         <Button
             android:id="@+id/button7"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:layout_margin="5dp"/>
 
         <Button
             android:id="@+id/button8"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:layout_margin="5dp"/>
 
     </LinearLayout>
 

@@ -23,6 +23,11 @@
     <color name="background_floating_material_light">#ffeeeeee</color>
     <color name="background_material_dark">#ff303030</color>
     <color name="background_material_light">#ffeeeeee</color>
+    <!-- From: file:/C:/Users/Christine/Desktop/CHRISTINE/Computer%20Science/Android/BeatTHIS/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black">#000000</color>
+    <!-- From: file:/C:/Users/Christine/Desktop/CHRISTINE/Computer%20Science/Android/BeatTHIS/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml -->
+    <eat-comment/>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
@@ -39,6 +44,12 @@
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
+    <!-- From: file:/C:/Users/Christine/Desktop/CHRISTINE/Computer%20Science/Android/BeatTHIS/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="light_purple">#8A00AB</color>
+    <color name="light_red">#A5345C</color>
+    <!-- From: file:/C:/Users/Christine/Desktop/CHRISTINE/Computer%20Science/Android/BeatTHIS/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml -->
+    <eat-comment/>
     <color name="link_text_material_dark">@color/material_deep_teal_200</color>
     <color name="link_text_material_light">@color/material_deep_teal_500</color>
     <color name="material_blue_grey_800">#ff37474f</color>
@@ -46,6 +57,11 @@
     <color name="material_blue_grey_950">#ff21272b</color>
     <color name="material_deep_teal_200">#ff80cbc4</color>
     <color name="material_deep_teal_500">#ff009688</color>
+    <!-- From: file:/C:/Users/Christine/Desktop/CHRISTINE/Computer%20Science/Android/BeatTHIS/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="navy">#220152</color>
+    <!-- From: file:/C:/Users/Christine/Desktop/CHRISTINE/Computer%20Science/Android/BeatTHIS/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml -->
+    <eat-comment/>
     <color name="primary_dark_material_dark">#ff000000</color>
     <color name="primary_dark_material_light">#ff757575</color>
     <color name="primary_material_dark">#ff212121</color>
@@ -54,6 +70,12 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
+    <!-- From: file:/C:/Users/Christine/Desktop/CHRISTINE/Computer%20Science/Android/BeatTHIS/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="purple">#540187</color>
+    <color name="red">#8F0133</color>
+    <!-- From: file:/C:/Users/Christine/Desktop/CHRISTINE/Computer%20Science/Android/BeatTHIS/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml -->
+    <eat-comment/>
     <color name="ripple_material_dark">#4dffffff</color>
     <color name="ripple_material_light">#1f000000</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
