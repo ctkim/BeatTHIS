@@ -216,7 +216,10 @@
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="app_name">Beat THIS!</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Open navigation drawer</string>
     <string name="hello_world">Hello world!</string>
+    <string name="playlist">Playlist</string>
     <string name="title_activity_second">SecondActivity</string>
     <!-- From: file:/C:/Users/Christine/Desktop/CHRISTINE/Computer%20Science/Android/BeatTHIS/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml -->
     <eat-comment/>
