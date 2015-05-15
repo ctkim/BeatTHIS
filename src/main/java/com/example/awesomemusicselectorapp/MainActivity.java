@@ -1,6 +1,8 @@
 package com.example.awesomemusicselectorapp;
 
 import android.content.res.Configuration;
+import android.content.res.Resources;
+import android.graphics.Typeface;
 import android.media.MediaPlayer;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
@@ -14,14 +16,17 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
 
 
 public class MainActivity extends ActionBarActivity {
 	
 	Button b1, b2, b3, b4, b5, b6, b7, b8;
-    private MediaPlayer m1, m2, m3, m4, m5, m6, m7, m8;
-    private String[] mSongs;
+    private MediaPlayer m1, m2, m3, m4, m5, m6, m7, m8, songPlayer;
+    private ArrayList<String> mSongs;
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
     private ActionBarDrawerToggle mDrawerToggle;
@@ -44,7 +49,9 @@ public class MainActivity extends ActionBarActivity {
 
         mTitle = getTitle();
         mDrawerTitle = "Playlist";
-        mSongs = new String[] {"this", "is", "space", "filler"};
+        mSongs = new ArrayList<String>();
+        // add sample song
+        mSongs.add("Sample Beat");
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mDrawerList = (ListView) findViewById(R.id.navList);
         mDrawerList.setAdapter(new ArrayAdapter<String>(this,
@@ -77,6 +84,8 @@ public class MainActivity extends ActionBarActivity {
 
             public void onDrawerOpened(View drawerView) {
                 super.onDrawerOpened(drawerView);
+                mDrawerList.bringToFront();
+                mDrawerLayout.requestLayout();
                 getSupportActionBar().setTitle(mDrawerTitle);
                 invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
             }
@@ -251,20 +260,7 @@ public class MainActivity extends ActionBarActivity {
                 break;
         }
         return beat;
-        //mPlayer = MediaPlayer.create(MainActivity.this, beat);
-        //mPlayer.start();
     }
-
-    // only required is onTouchListener doesn't work
-    /*@Override
-    protected void onPause() {
-        super.onPause();
-        for (int i=0; i<allMPlayers.length; i++) {
-            if (allMPlayers[i].isPlaying()) {
-                allMPlayers[i].stop();
-            }
-        }
-    }*/
 
 	@Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -304,9 +300,40 @@ public class MainActivity extends ActionBarActivity {
 
     // click on nav menu item
     private class DrawerItemClickListener implements android.widget.AdapterView.OnItemClickListener {
+        private DrawerLayout mDrawerLayout;
         @Override
         public void onItemClick(AdapterView parent, View view, int position, long id) {
             Toast.makeText(MainActivity.this, "Playing song...", Toast.LENGTH_SHORT).show();
+            playSong(position);
+            mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+            mDrawerList.setItemChecked(position, true);
+            mDrawerLayout.closeDrawers();
+        }
+    }
+
+    // plays selected song from nav menu
+    // position is index in Arraylist mSongs
+    private void playSong(int position) {
+        //String songName = mSongs.get(position);
+        songPlayer = MediaPlayer.create(MainActivity.this, R.raw.sample_beat);
+        songPlayer.start();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        if (songPlayer.isPlaying()) {
+            songPlayer.stop();
+            songPlayer.release();
+        }
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        if (songPlayer.isPlaying()) {
+            songPlayer.stop();
+            songPlayer.release();
         }
     }
 }

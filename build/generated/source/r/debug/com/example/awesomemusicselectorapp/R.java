@@ -1660,13 +1660,13 @@ containing a value of this type.
     public static final class raw {
         public static final int bassdown=0x7f060000;
         public static final int bassdrum=0x7f060001;
-        public static final int beat_sample=0x7f060002;
-        public static final int bubble=0x7f060003;
-        public static final int byoh=0x7f060004;
-        public static final int clap=0x7f060005;
-        public static final int clapclap=0x7f060006;
-        public static final int drop=0x7f060007;
-        public static final int gunshot=0x7f060008;
+        public static final int bubble=0x7f060002;
+        public static final int byoh=0x7f060003;
+        public static final int clap=0x7f060004;
+        public static final int clapclap=0x7f060005;
+        public static final int drop=0x7f060006;
+        public static final int gunshot=0x7f060007;
+        public static final int sample_beat=0x7f060008;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f070000;
