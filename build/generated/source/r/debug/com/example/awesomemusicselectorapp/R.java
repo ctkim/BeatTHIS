@@ -1531,29 +1531,31 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0d003d;
         public static final int action_mode_bar_stub=0x7f0d003c;
         public static final int action_mode_close_button=0x7f0d0025;
-        public static final int action_settings=0x7f0d0057;
+        public static final int action_settings=0x7f0d005a;
         public static final int activity_chooser_view_content=0x7f0d0026;
         public static final int alertTitle=0x7f0d0030;
         public static final int always=0x7f0d0016;
         public static final int beginning=0x7f0d0013;
-        public static final int button1=0x7f0d004f;
-        public static final int button2=0x7f0d0050;
-        public static final int button3=0x7f0d0051;
-        public static final int button4=0x7f0d0052;
-        public static final int button5=0x7f0d0053;
-        public static final int button6=0x7f0d0054;
-        public static final int button7=0x7f0d0055;
-        public static final int button8=0x7f0d0056;
+        public static final int button1=0x7f0d0052;
+        public static final int button2=0x7f0d0053;
+        public static final int button3=0x7f0d0054;
+        public static final int button4=0x7f0d0055;
+        public static final int button5=0x7f0d0056;
+        public static final int button6=0x7f0d0057;
+        public static final int button7=0x7f0d0058;
+        public static final int button8=0x7f0d0059;
         public static final int buttonPanel=0x7f0d0036;
         public static final int checkbox=0x7f0d0038;
         public static final int collapseActionView=0x7f0d0017;
         public static final int contentPanel=0x7f0d0031;
+        public static final int content_frame=0x7f0d0050;
         public static final int custom=0x7f0d0035;
         public static final int customPanel=0x7f0d0034;
         public static final int decor_content_parent=0x7f0d003e;
         public static final int default_activity_button=0x7f0d0029;
         public static final int dialog=0x7f0d001b;
         public static final int disableHome=0x7f0d000c;
+        public static final int drawer_layout=0x7f0d004f;
         public static final int dropdown=0x7f0d001c;
         public static final int edit_query=0x7f0d0042;
         public static final int end=0x7f0d0014;
@@ -1568,6 +1570,7 @@ containing a value of this type.
         public static final int list_item=0x7f0d002a;
         public static final int middle=0x7f0d0015;
         public static final int multiply=0x7f0d001e;
+        public static final int navList=0x7f0d0051;
         public static final int never=0x7f0d0019;
         public static final int none=0x7f0d000e;
         public static final int normal=0x7f0d000a;
@@ -1990,33 +1993,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background com.example.awesomemusicselectorapp:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit com.example.awesomemusicselectorapp:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked com.example.awesomemusicselectorapp:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd com.example.awesomemusicselectorapp:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft com.example.awesomemusicselectorapp:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight com.example.awesomemusicselectorapp:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart com.example.awesomemusicselectorapp:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout com.example.awesomemusicselectorapp:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions com.example.awesomemusicselectorapp:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider com.example.awesomemusicselectorapp:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation com.example.awesomemusicselectorapp:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height com.example.awesomemusicselectorapp:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.example.awesomemusicselectorapp:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.example.awesomemusicselectorapp:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout com.example.awesomemusicselectorapp:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon com.example.awesomemusicselectorapp:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.example.awesomemusicselectorapp:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding com.example.awesomemusicselectorapp:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo com.example.awesomemusicselectorapp:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode com.example.awesomemusicselectorapp:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme com.example.awesomemusicselectorapp:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding com.example.awesomemusicselectorapp:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle com.example.awesomemusicselectorapp:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle com.example.awesomemusicselectorapp:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.example.awesomemusicselectorapp:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title com.example.awesomemusicselectorapp:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle com.example.awesomemusicselectorapp:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background com.example.beatthis:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.example.beatthis:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.example.beatthis:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd com.example.beatthis:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft com.example.beatthis:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight com.example.beatthis:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart com.example.beatthis:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.example.beatthis:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.example.beatthis:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.example.beatthis:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation com.example.beatthis:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height com.example.beatthis:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.example.beatthis:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.example.beatthis:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.example.beatthis:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.example.beatthis:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.example.beatthis:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.example.beatthis:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo com.example.beatthis:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.example.beatthis:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme com.example.beatthis:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.example.beatthis:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.example.beatthis:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.example.beatthis:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.example.beatthis:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title com.example.beatthis:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.example.beatthis:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -2056,17 +2059,17 @@ containing a value of this type.
             0x7f01001a, 0x7f01001b, 0x7f01007c
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#background}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:background
+          @attr name com.example.beatthis:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2074,11 +2077,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.example.awesomemusicselectorapp:backgroundSplit
+          @attr name com.example.beatthis:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2086,11 +2089,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.example.awesomemusicselectorapp:backgroundStacked
+          @attr name com.example.beatthis:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2102,11 +2105,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:contentInsetEnd
+          @attr name com.example.beatthis:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2118,11 +2121,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:contentInsetLeft
+          @attr name com.example.beatthis:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2134,11 +2137,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:contentInsetRight
+          @attr name com.example.beatthis:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2150,21 +2153,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:contentInsetStart
+          @attr name com.example.beatthis:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:customNavigationLayout
+          @attr name com.example.beatthis:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2182,21 +2185,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name com.example.awesomemusicselectorapp:displayOptions
+          @attr name com.example.beatthis:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:divider
+          @attr name com.example.beatthis:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2208,11 +2211,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:elevation
+          @attr name com.example.beatthis:elevation
         */
         public static final int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#height}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2224,11 +2227,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:height
+          @attr name com.example.beatthis:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2238,51 +2241,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:hideOnContentScroll
+          @attr name com.example.beatthis:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:homeAsUpIndicator
+          @attr name com.example.beatthis:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:homeLayout
+          @attr name com.example.beatthis:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:icon
+          @attr name com.example.beatthis:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:indeterminateProgressStyle
+          @attr name com.example.beatthis:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2294,21 +2297,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:itemPadding
+          @attr name com.example.beatthis:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:logo
+          @attr name com.example.beatthis:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2322,21 +2325,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.example.awesomemusicselectorapp:navigationMode
+          @attr name com.example.beatthis:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:popupTheme
+          @attr name com.example.beatthis:popupTheme
         */
         public static final int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2348,21 +2351,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:progressBarPadding
+          @attr name com.example.beatthis:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:progressBarStyle
+          @attr name com.example.beatthis:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2372,21 +2375,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:subtitle
+          @attr name com.example.beatthis:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:subtitleTextStyle
+          @attr name com.example.beatthis:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#title}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2396,17 +2399,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:title
+          @attr name com.example.beatthis:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:titleTextStyle
+          @attr name com.example.beatthis:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -2458,12 +2461,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background com.example.awesomemusicselectorapp:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit com.example.awesomemusicselectorapp:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout com.example.awesomemusicselectorapp:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height com.example.awesomemusicselectorapp:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.example.awesomemusicselectorapp:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle com.example.awesomemusicselectorapp:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background com.example.beatthis:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.example.beatthis:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout com.example.beatthis:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height com.example.beatthis:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.example.beatthis:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.example.beatthis:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -2477,17 +2480,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01000e, 0x7f01001c
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#background}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:background
+          @attr name com.example.beatthis:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2495,21 +2498,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.example.awesomemusicselectorapp:backgroundSplit
+          @attr name com.example.beatthis:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:closeItemLayout
+          @attr name com.example.beatthis:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#height}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2521,27 +2524,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:height
+          @attr name com.example.beatthis:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:subtitleTextStyle
+          @attr name com.example.beatthis:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:titleTextStyle
+          @attr name com.example.beatthis:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -2550,8 +2553,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.example.awesomemusicselectorapp:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.example.awesomemusicselectorapp:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.example.beatthis:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.example.beatthis:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -2560,17 +2563,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01001d, 0x7f01001e
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:expandActivityOverflowButtonDrawable
+          @attr name com.example.beatthis:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -2580,7 +2583,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:initialActivityCount
+          @attr name com.example.beatthis:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AlertDialog.
@@ -2590,11 +2593,11 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.example.awesomemusicselectorapp:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout com.example.awesomemusicselectorapp:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout com.example.awesomemusicselectorapp:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.example.awesomemusicselectorapp:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.example.awesomemusicselectorapp:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.example.beatthis:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout com.example.beatthis:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout com.example.beatthis:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.example.beatthis:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.example.beatthis:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -2614,53 +2617,53 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:buttonPanelSideLayout
+          @attr name com.example.beatthis:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:listItemLayout
+          @attr name com.example.beatthis:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:listLayout
+          @attr name com.example.beatthis:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:multiChoiceItemLayout
+          @attr name com.example.beatthis:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:singleChoiceItemLayout
+          @attr name com.example.beatthis:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppCompatTextView.
@@ -2670,7 +2673,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.example.awesomemusicselectorapp:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.example.beatthis:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_textAllCaps
@@ -2685,14 +2688,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.example.awesomemusicselectorapp:textAllCaps
+          @attr name com.example.beatthis:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -2701,14 +2704,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barSize com.example.awesomemusicselectorapp:barSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color com.example.awesomemusicselectorapp:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.example.awesomemusicselectorapp:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.example.awesomemusicselectorapp:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize com.example.awesomemusicselectorapp:middleBarArrowSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.example.awesomemusicselectorapp:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness com.example.awesomemusicselectorapp:thickness}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize com.example.awesomemusicselectorapp:topBottomBarArrowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barSize com.example.beatthis:barSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color com.example.beatthis:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.example.beatthis:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.example.beatthis:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize com.example.beatthis:middleBarArrowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.example.beatthis:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness com.example.beatthis:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize com.example.beatthis:topBottomBarArrowSize}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_barSize
            @see #DrawerArrowToggle_color
@@ -2724,7 +2727,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010029, 0x7f01002a, 0x7f01002b, 0x7f01002c
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#barSize}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#barSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2736,11 +2739,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:barSize
+          @attr name com.example.beatthis:barSize
         */
         public static final int DrawerArrowToggle_barSize = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#color}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2751,11 +2754,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:color
+          @attr name com.example.beatthis:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2767,11 +2770,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:drawableSize
+          @attr name com.example.beatthis:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2783,11 +2786,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:gapBetweenBars
+          @attr name com.example.beatthis:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#middleBarArrowSize}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#middleBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2799,11 +2802,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:middleBarArrowSize
+          @attr name com.example.beatthis:middleBarArrowSize
         */
         public static final int DrawerArrowToggle_middleBarArrowSize = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2813,11 +2816,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:spinBars
+          @attr name com.example.beatthis:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2829,11 +2832,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:thickness
+          @attr name com.example.beatthis:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#topBottomBarArrowSize}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#topBottomBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2845,7 +2848,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:topBottomBarArrowSize
+          @attr name com.example.beatthis:topBottomBarArrowSize
         */
         public static final int DrawerArrowToggle_topBottomBarArrowSize = 4;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -2859,10 +2862,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider com.example.awesomemusicselectorapp:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.example.awesomemusicselectorapp:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.example.awesomemusicselectorapp:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.example.awesomemusicselectorapp:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider com.example.beatthis:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.example.beatthis:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.example.beatthis:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.example.beatthis:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -2910,17 +2913,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:divider
+          @attr name com.example.beatthis:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -2932,11 +2935,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:dividerPadding
+          @attr name com.example.beatthis:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -2946,11 +2949,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:measureWithLargestChild
+          @attr name com.example.beatthis:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -2965,7 +2968,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.example.awesomemusicselectorapp:showDividers
+          @attr name com.example.beatthis:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -3104,9 +3107,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout com.example.awesomemusicselectorapp:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass com.example.awesomemusicselectorapp:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass com.example.awesomemusicselectorapp:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout com.example.beatthis:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.example.beatthis:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass com.example.beatthis:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -3120,7 +3123,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction com.example.awesomemusicselectorapp:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.example.beatthis:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -3148,17 +3151,17 @@ containing a value of this type.
             0x7f010033
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionLayout
+          @attr name com.example.beatthis:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3168,11 +3171,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:actionProviderClass
+          @attr name com.example.beatthis:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3182,7 +3185,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:actionViewClass
+          @attr name com.example.beatthis:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -3264,7 +3267,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3280,7 +3283,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.example.awesomemusicselectorapp:showAsAction
+          @attr name com.example.beatthis:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -3296,7 +3299,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing com.example.awesomemusicselectorapp:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing com.example.beatthis:preserveIconSpacing}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -3354,7 +3357,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -3364,7 +3367,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:preserveIconSpacing
+          @attr name com.example.beatthis:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a PopupWindow.
@@ -3374,7 +3377,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor com.example.awesomemusicselectorapp:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor com.example.beatthis:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
@@ -3389,7 +3392,7 @@ containing a value of this type.
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -3399,7 +3402,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:overlapAnchor
+          @attr name com.example.beatthis:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -3408,7 +3411,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.example.awesomemusicselectorapp:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.example.beatthis:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -3416,7 +3419,7 @@ containing a value of this type.
             0x7f010036
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -3426,7 +3429,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:state_above_anchor
+          @attr name com.example.beatthis:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a SearchView.
@@ -3439,18 +3442,18 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon com.example.awesomemusicselectorapp:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon com.example.awesomemusicselectorapp:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon com.example.awesomemusicselectorapp:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault com.example.awesomemusicselectorapp:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout com.example.awesomemusicselectorapp:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground com.example.awesomemusicselectorapp:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint com.example.awesomemusicselectorapp:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon com.example.awesomemusicselectorapp:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon com.example.awesomemusicselectorapp:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground com.example.awesomemusicselectorapp:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout com.example.awesomemusicselectorapp:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon com.example.awesomemusicselectorapp:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon com.example.beatthis:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon com.example.beatthis:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon com.example.beatthis:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.example.beatthis:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout com.example.beatthis:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground com.example.beatthis:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.example.beatthis:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon com.example.beatthis:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon com.example.beatthis:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground com.example.beatthis:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout com.example.beatthis:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon com.example.beatthis:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -3500,37 +3503,37 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:closeIcon
+          @attr name com.example.beatthis:closeIcon
         */
         public static final int SearchView_closeIcon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:commitIcon
+          @attr name com.example.beatthis:commitIcon
         */
         public static final int SearchView_commitIcon = 12;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:goIcon
+          @attr name com.example.beatthis:goIcon
         */
         public static final int SearchView_goIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3540,31 +3543,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:iconifiedByDefault
+          @attr name com.example.beatthis:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#layout}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:layout
+          @attr name com.example.beatthis:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:queryBackground
+          @attr name com.example.beatthis:queryBackground
         */
         public static final int SearchView_queryBackground = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3574,57 +3577,57 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:queryHint
+          @attr name com.example.beatthis:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:searchHintIcon
+          @attr name com.example.beatthis:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:searchIcon
+          @attr name com.example.beatthis:searchIcon
         */
         public static final int SearchView_searchIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:submitBackground
+          @attr name com.example.beatthis:submitBackground
         */
         public static final int SearchView_submitBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:suggestionRowLayout
+          @attr name com.example.beatthis:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:voiceIcon
+          @attr name com.example.beatthis:voiceIcon
         */
         public static final int SearchView_voiceIcon = 11;
         /** Attributes that can be used with a Spinner.
@@ -3640,10 +3643,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled com.example.awesomemusicselectorapp:disableChildrenWhenDisabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupPromptView com.example.awesomemusicselectorapp:popupPromptView}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_prompt com.example.awesomemusicselectorapp:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_spinnerMode com.example.awesomemusicselectorapp:spinnerMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled com.example.beatthis:disableChildrenWhenDisabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupPromptView com.example.beatthis:popupPromptView}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_prompt com.example.beatthis:prompt}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_spinnerMode com.example.beatthis:spinnerMode}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_background
            @see #Spinner_android_dropDownHorizontalOffset
@@ -3705,7 +3708,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Spinner_android_popupBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#disableChildrenWhenDisabled}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#disableChildrenWhenDisabled}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -3715,31 +3718,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:disableChildrenWhenDisabled
+          @attr name com.example.beatthis:disableChildrenWhenDisabled
         */
         public static final int Spinner_disableChildrenWhenDisabled = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#popupPromptView}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#popupPromptView}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:popupPromptView
+          @attr name com.example.beatthis:popupPromptView
         */
         public static final int Spinner_popupPromptView = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#prompt}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#prompt}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:prompt
+          @attr name com.example.beatthis:prompt
         */
         public static final int Spinner_prompt = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#spinnerMode}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#spinnerMode}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -3752,7 +3755,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>dialog</code></td><td>0</td><td></td></tr>
 <tr><td><code>dropdown</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.example.awesomemusicselectorapp:spinnerMode
+          @attr name com.example.beatthis:spinnerMode
         */
         public static final int Spinner_spinnerMode = 8;
         /** Attributes that can be used with a SwitchCompat.
@@ -3764,13 +3767,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText com.example.awesomemusicselectorapp:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack com.example.awesomemusicselectorapp:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.example.awesomemusicselectorapp:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding com.example.awesomemusicselectorapp:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.example.awesomemusicselectorapp:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.example.awesomemusicselectorapp:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track com.example.awesomemusicselectorapp:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText com.example.beatthis:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack com.example.beatthis:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.example.beatthis:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding com.example.beatthis:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.example.beatthis:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.example.beatthis:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track com.example.beatthis:track}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -3807,7 +3810,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3817,11 +3820,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:showText
+          @attr name com.example.beatthis:showText
         */
         public static final int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3831,11 +3834,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:splitTrack
+          @attr name com.example.beatthis:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3847,11 +3850,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:switchMinWidth
+          @attr name com.example.beatthis:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3863,21 +3866,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:switchPadding
+          @attr name com.example.beatthis:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:switchTextAppearance
+          @attr name com.example.beatthis:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3889,17 +3892,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:thumbTextPadding
+          @attr name com.example.beatthis:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#track}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:track
+          @attr name com.example.beatthis:track
         */
         public static final int SwitchCompat_track = 3;
         /** Attributes that can be used with a TextAppearance.
@@ -3912,7 +3915,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps com.example.awesomemusicselectorapp:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps com.example.beatthis:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #TextAppearance_android_textColor
            @see #TextAppearance_android_textSize
@@ -3949,14 +3952,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.example.awesomemusicselectorapp:textAllCaps
+          @attr name com.example.beatthis:textAllCaps
         */
         public static final int TextAppearance_textAllCaps = 4;
         /** Attributes that can be used with a Theme.
@@ -3965,112 +3968,112 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionBarDivider com.example.awesomemusicselectorapp:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarItemBackground com.example.awesomemusicselectorapp:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarPopupTheme com.example.awesomemusicselectorapp:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSize com.example.awesomemusicselectorapp:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSplitStyle com.example.awesomemusicselectorapp:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarStyle com.example.awesomemusicselectorapp:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.example.awesomemusicselectorapp:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabStyle com.example.awesomemusicselectorapp:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.example.awesomemusicselectorapp:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTheme com.example.awesomemusicselectorapp:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.example.awesomemusicselectorapp:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionButtonStyle com.example.awesomemusicselectorapp:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle com.example.awesomemusicselectorapp:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.example.awesomemusicselectorapp:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextColor com.example.awesomemusicselectorapp:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeBackground com.example.awesomemusicselectorapp:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.example.awesomemusicselectorapp:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.example.awesomemusicselectorapp:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.example.awesomemusicselectorapp:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCutDrawable com.example.awesomemusicselectorapp:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeFindDrawable com.example.awesomemusicselectorapp:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePasteDrawable com.example.awesomemusicselectorapp:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.example.awesomemusicselectorapp:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.example.awesomemusicselectorapp:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeShareDrawable com.example.awesomemusicselectorapp:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSplitBackground com.example.awesomemusicselectorapp:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeStyle com.example.awesomemusicselectorapp:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.example.awesomemusicselectorapp:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.example.awesomemusicselectorapp:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.example.awesomemusicselectorapp:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_activityChooserViewStyle com.example.awesomemusicselectorapp:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle com.example.awesomemusicselectorapp:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogCenterButtons com.example.awesomemusicselectorapp:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogStyle com.example.awesomemusicselectorapp:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogTheme com.example.awesomemusicselectorapp:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarDivider com.example.beatthis:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarItemBackground com.example.beatthis:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarPopupTheme com.example.beatthis:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSize com.example.beatthis:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSplitStyle com.example.beatthis:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarStyle com.example.beatthis:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.example.beatthis:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabStyle com.example.beatthis:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.example.beatthis:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTheme com.example.beatthis:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.example.beatthis:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionButtonStyle com.example.beatthis:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionDropDownStyle com.example.beatthis:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.example.beatthis:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextColor com.example.beatthis:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeBackground com.example.beatthis:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.example.beatthis:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.example.beatthis:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.example.beatthis:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCutDrawable com.example.beatthis:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeFindDrawable com.example.beatthis:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePasteDrawable com.example.beatthis:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.example.beatthis:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.example.beatthis:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeShareDrawable com.example.beatthis:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSplitBackground com.example.beatthis:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeStyle com.example.beatthis:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.example.beatthis:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.example.beatthis:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.example.beatthis:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_activityChooserViewStyle com.example.beatthis:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle com.example.beatthis:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogCenterButtons com.example.beatthis:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogStyle com.example.beatthis:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogTheme com.example.beatthis:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_autoCompleteTextViewStyle com.example.awesomemusicselectorapp:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.example.awesomemusicselectorapp:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle com.example.awesomemusicselectorapp:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle com.example.awesomemusicselectorapp:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle com.example.awesomemusicselectorapp:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarStyle com.example.awesomemusicselectorapp:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonStyle com.example.awesomemusicselectorapp:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonStyleSmall com.example.awesomemusicselectorapp:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_checkboxStyle com.example.awesomemusicselectorapp:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_checkedTextViewStyle com.example.awesomemusicselectorapp:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorAccent com.example.awesomemusicselectorapp:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorButtonNormal com.example.awesomemusicselectorapp:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlActivated com.example.awesomemusicselectorapp:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlHighlight com.example.awesomemusicselectorapp:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlNormal com.example.awesomemusicselectorapp:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimary com.example.awesomemusicselectorapp:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimaryDark com.example.awesomemusicselectorapp:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.example.awesomemusicselectorapp:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dialogPreferredPadding com.example.awesomemusicselectorapp:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dialogTheme com.example.awesomemusicselectorapp:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerHorizontal com.example.awesomemusicselectorapp:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerVertical com.example.awesomemusicselectorapp:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropDownListViewStyle com.example.awesomemusicselectorapp:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.example.awesomemusicselectorapp:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextBackground com.example.awesomemusicselectorapp:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextColor com.example.awesomemusicselectorapp:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextStyle com.example.awesomemusicselectorapp:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_homeAsUpIndicator com.example.awesomemusicselectorapp:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.example.awesomemusicselectorapp:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listDividerAlertDialog com.example.awesomemusicselectorapp:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPopupWindowStyle com.example.awesomemusicselectorapp:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeight com.example.awesomemusicselectorapp:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.example.awesomemusicselectorapp:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.example.awesomemusicselectorapp:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.example.awesomemusicselectorapp:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.example.awesomemusicselectorapp:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelBackground com.example.awesomemusicselectorapp:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme com.example.awesomemusicselectorapp:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth com.example.awesomemusicselectorapp:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle com.example.awesomemusicselectorapp:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupWindowStyle com.example.awesomemusicselectorapp:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_radioButtonStyle com.example.awesomemusicselectorapp:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_ratingBarStyle com.example.awesomemusicselectorapp:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_searchViewStyle com.example.awesomemusicselectorapp:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackground com.example.awesomemusicselectorapp:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.example.awesomemusicselectorapp:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.example.awesomemusicselectorapp:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerStyle com.example.awesomemusicselectorapp:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_switchStyle com.example.awesomemusicselectorapp:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.example.awesomemusicselectorapp:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItem com.example.awesomemusicselectorapp:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.example.awesomemusicselectorapp:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.example.awesomemusicselectorapp:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.example.awesomemusicselectorapp:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.example.awesomemusicselectorapp:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorAlertDialogListItem com.example.awesomemusicselectorapp:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorSearchUrl com.example.awesomemusicselectorapp:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.example.awesomemusicselectorapp:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarStyle com.example.awesomemusicselectorapp:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBar com.example.awesomemusicselectorapp:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBarOverlay com.example.awesomemusicselectorapp:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionModeOverlay com.example.awesomemusicselectorapp:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.example.awesomemusicselectorapp:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.example.awesomemusicselectorapp:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.example.awesomemusicselectorapp:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.example.awesomemusicselectorapp:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowMinWidthMajor com.example.awesomemusicselectorapp:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowMinWidthMinor com.example.awesomemusicselectorapp:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowNoTitle com.example.awesomemusicselectorapp:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_autoCompleteTextViewStyle com.example.beatthis:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.example.beatthis:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle com.example.beatthis:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle com.example.beatthis:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle com.example.beatthis:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarStyle com.example.beatthis:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonStyle com.example.beatthis:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonStyleSmall com.example.beatthis:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_checkboxStyle com.example.beatthis:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_checkedTextViewStyle com.example.beatthis:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorAccent com.example.beatthis:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorButtonNormal com.example.beatthis:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlActivated com.example.beatthis:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlHighlight com.example.beatthis:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlNormal com.example.beatthis:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimary com.example.beatthis:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimaryDark com.example.beatthis:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.example.beatthis:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dialogPreferredPadding com.example.beatthis:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dialogTheme com.example.beatthis:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerHorizontal com.example.beatthis:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerVertical com.example.beatthis:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropDownListViewStyle com.example.beatthis:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.example.beatthis:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextBackground com.example.beatthis:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextColor com.example.beatthis:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextStyle com.example.beatthis:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_homeAsUpIndicator com.example.beatthis:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.example.beatthis:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listDividerAlertDialog com.example.beatthis:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPopupWindowStyle com.example.beatthis:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeight com.example.beatthis:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.example.beatthis:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.example.beatthis:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.example.beatthis:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.example.beatthis:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelBackground com.example.beatthis:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListTheme com.example.beatthis:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListWidth com.example.beatthis:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupMenuStyle com.example.beatthis:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupWindowStyle com.example.beatthis:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_radioButtonStyle com.example.beatthis:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_ratingBarStyle com.example.beatthis:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_searchViewStyle com.example.beatthis:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackground com.example.beatthis:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.example.beatthis:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.example.beatthis:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerStyle com.example.beatthis:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_switchStyle com.example.beatthis:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.example.beatthis:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItem com.example.beatthis:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.example.beatthis:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.example.beatthis:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.example.beatthis:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.example.beatthis:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorAlertDialogListItem com.example.beatthis:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorSearchUrl com.example.beatthis:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.example.beatthis:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarStyle com.example.beatthis:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBar com.example.beatthis:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBarOverlay com.example.beatthis:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionModeOverlay com.example.beatthis:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.example.beatthis:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.example.beatthis:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.example.beatthis:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.example.beatthis:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowMinWidthMajor com.example.beatthis:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowMinWidthMinor com.example.beatthis:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowNoTitle com.example.beatthis:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #Theme_actionBarDivider
            @see #Theme_actionBarItemBackground
@@ -4209,37 +4212,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100b4, 0x7f0100b5
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionBarDivider
+          @attr name com.example.beatthis:actionBarDivider
         */
         public static final int Theme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionBarItemBackground
+          @attr name com.example.beatthis:actionBarItemBackground
         */
         public static final int Theme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionBarPopupTheme
+          @attr name com.example.beatthis:actionBarPopupTheme
         */
         public static final int Theme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionBarSize}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4259,111 +4262,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.example.awesomemusicselectorapp:actionBarSize
+          @attr name com.example.beatthis:actionBarSize
         */
         public static final int Theme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionBarSplitStyle
+          @attr name com.example.beatthis:actionBarSplitStyle
         */
         public static final int Theme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionBarStyle
+          @attr name com.example.beatthis:actionBarStyle
         */
         public static final int Theme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionBarTabBarStyle
+          @attr name com.example.beatthis:actionBarTabBarStyle
         */
         public static final int Theme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionBarTabStyle
+          @attr name com.example.beatthis:actionBarTabStyle
         */
         public static final int Theme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionBarTabTextStyle
+          @attr name com.example.beatthis:actionBarTabTextStyle
         */
         public static final int Theme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionBarTheme
+          @attr name com.example.beatthis:actionBarTheme
         */
         public static final int Theme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionBarWidgetTheme
+          @attr name com.example.beatthis:actionBarWidgetTheme
         */
         public static final int Theme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionButtonStyle
+          @attr name com.example.beatthis:actionButtonStyle
         */
         public static final int Theme_actionButtonStyle = 49;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionDropDownStyle
+          @attr name com.example.beatthis:actionDropDownStyle
         */
         public static final int Theme_actionDropDownStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionMenuTextAppearance
+          @attr name com.example.beatthis:actionMenuTextAppearance
         */
         public static final int Theme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4371,181 +4374,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionMenuTextColor
+          @attr name com.example.beatthis:actionMenuTextColor
         */
         public static final int Theme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionModeBackground
+          @attr name com.example.beatthis:actionModeBackground
         */
         public static final int Theme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionModeCloseButtonStyle
+          @attr name com.example.beatthis:actionModeCloseButtonStyle
         */
         public static final int Theme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionModeCloseDrawable
+          @attr name com.example.beatthis:actionModeCloseDrawable
         */
         public static final int Theme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionModeCopyDrawable
+          @attr name com.example.beatthis:actionModeCopyDrawable
         */
         public static final int Theme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionModeCutDrawable
+          @attr name com.example.beatthis:actionModeCutDrawable
         */
         public static final int Theme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionModeFindDrawable
+          @attr name com.example.beatthis:actionModeFindDrawable
         */
         public static final int Theme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionModePasteDrawable
+          @attr name com.example.beatthis:actionModePasteDrawable
         */
         public static final int Theme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionModePopupWindowStyle
+          @attr name com.example.beatthis:actionModePopupWindowStyle
         */
         public static final int Theme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionModeSelectAllDrawable
+          @attr name com.example.beatthis:actionModeSelectAllDrawable
         */
         public static final int Theme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionModeShareDrawable
+          @attr name com.example.beatthis:actionModeShareDrawable
         */
         public static final int Theme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionModeSplitBackground
+          @attr name com.example.beatthis:actionModeSplitBackground
         */
         public static final int Theme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionModeStyle
+          @attr name com.example.beatthis:actionModeStyle
         */
         public static final int Theme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionModeWebSearchDrawable
+          @attr name com.example.beatthis:actionModeWebSearchDrawable
         */
         public static final int Theme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionOverflowButtonStyle
+          @attr name com.example.beatthis:actionOverflowButtonStyle
         */
         public static final int Theme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:actionOverflowMenuStyle
+          @attr name com.example.beatthis:actionOverflowMenuStyle
         */
         public static final int Theme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:activityChooserViewStyle
+          @attr name com.example.beatthis:activityChooserViewStyle
         */
         public static final int Theme_activityChooserViewStyle = 56;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:alertDialogButtonGroupStyle
+          @attr name com.example.beatthis:alertDialogButtonGroupStyle
         */
         public static final int Theme_alertDialogButtonGroupStyle = 89;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4555,27 +4558,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:alertDialogCenterButtons
+          @attr name com.example.beatthis:alertDialogCenterButtons
         */
         public static final int Theme_alertDialogCenterButtons = 90;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:alertDialogStyle
+          @attr name com.example.beatthis:alertDialogStyle
         */
         public static final int Theme_alertDialogStyle = 88;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:alertDialogTheme
+          @attr name com.example.beatthis:alertDialogTheme
         */
         public static final int Theme_alertDialogTheme = 91;
         /**
@@ -4591,107 +4594,107 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:autoCompleteTextViewStyle
+          @attr name com.example.beatthis:autoCompleteTextViewStyle
         */
         public static final int Theme_autoCompleteTextViewStyle = 96;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:buttonBarButtonStyle
+          @attr name com.example.beatthis:buttonBarButtonStyle
         */
         public static final int Theme_buttonBarButtonStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:buttonBarNegativeButtonStyle
+          @attr name com.example.beatthis:buttonBarNegativeButtonStyle
         */
         public static final int Theme_buttonBarNegativeButtonStyle = 94;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:buttonBarNeutralButtonStyle
+          @attr name com.example.beatthis:buttonBarNeutralButtonStyle
         */
         public static final int Theme_buttonBarNeutralButtonStyle = 95;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:buttonBarPositiveButtonStyle
+          @attr name com.example.beatthis:buttonBarPositiveButtonStyle
         */
         public static final int Theme_buttonBarPositiveButtonStyle = 93;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:buttonBarStyle
+          @attr name com.example.beatthis:buttonBarStyle
         */
         public static final int Theme_buttonBarStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#buttonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:buttonStyle
+          @attr name com.example.beatthis:buttonStyle
         */
         public static final int Theme_buttonStyle = 97;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:buttonStyleSmall
+          @attr name com.example.beatthis:buttonStyleSmall
         */
         public static final int Theme_buttonStyleSmall = 98;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:checkboxStyle
+          @attr name com.example.beatthis:checkboxStyle
         */
         public static final int Theme_checkboxStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:checkedTextViewStyle
+          @attr name com.example.beatthis:checkedTextViewStyle
         */
         public static final int Theme_checkedTextViewStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#colorAccent}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4702,11 +4705,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:colorAccent
+          @attr name com.example.beatthis:colorAccent
         */
         public static final int Theme_colorAccent = 82;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4717,11 +4720,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:colorButtonNormal
+          @attr name com.example.beatthis:colorButtonNormal
         */
         public static final int Theme_colorButtonNormal = 86;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4732,11 +4735,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:colorControlActivated
+          @attr name com.example.beatthis:colorControlActivated
         */
         public static final int Theme_colorControlActivated = 84;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4747,11 +4750,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:colorControlHighlight
+          @attr name com.example.beatthis:colorControlHighlight
         */
         public static final int Theme_colorControlHighlight = 85;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4762,11 +4765,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:colorControlNormal
+          @attr name com.example.beatthis:colorControlNormal
         */
         public static final int Theme_colorControlNormal = 83;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#colorPrimary}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4777,11 +4780,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:colorPrimary
+          @attr name com.example.beatthis:colorPrimary
         */
         public static final int Theme_colorPrimary = 80;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4792,11 +4795,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:colorPrimaryDark
+          @attr name com.example.beatthis:colorPrimaryDark
         */
         public static final int Theme_colorPrimaryDark = 81;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4807,11 +4810,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:colorSwitchThumbNormal
+          @attr name com.example.beatthis:colorSwitchThumbNormal
         */
         public static final int Theme_colorSwitchThumbNormal = 87;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4823,51 +4826,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:dialogPreferredPadding
+          @attr name com.example.beatthis:dialogPreferredPadding
         */
         public static final int Theme_dialogPreferredPadding = 43;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#dialogTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:dialogTheme
+          @attr name com.example.beatthis:dialogTheme
         */
         public static final int Theme_dialogTheme = 42;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:dividerHorizontal
+          @attr name com.example.beatthis:dividerHorizontal
         */
         public static final int Theme_dividerHorizontal = 55;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#dividerVertical}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:dividerVertical
+          @attr name com.example.beatthis:dividerVertical
         */
         public static final int Theme_dividerVertical = 54;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:dropDownListViewStyle
+          @attr name com.example.beatthis:dropDownListViewStyle
         */
         public static final int Theme_dropDownListViewStyle = 72;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4879,21 +4882,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:dropdownListPreferredItemHeight
+          @attr name com.example.beatthis:dropdownListPreferredItemHeight
         */
         public static final int Theme_dropdownListPreferredItemHeight = 46;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#editTextBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:editTextBackground
+          @attr name com.example.beatthis:editTextBackground
         */
         public static final int Theme_editTextBackground = 62;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#editTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4901,61 +4904,61 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.example.awesomemusicselectorapp:editTextColor
+          @attr name com.example.beatthis:editTextColor
         */
         public static final int Theme_editTextColor = 61;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#editTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:editTextStyle
+          @attr name com.example.beatthis:editTextStyle
         */
         public static final int Theme_editTextStyle = 101;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:homeAsUpIndicator
+          @attr name com.example.beatthis:homeAsUpIndicator
         */
         public static final int Theme_homeAsUpIndicator = 48;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:listChoiceBackgroundIndicator
+          @attr name com.example.beatthis:listChoiceBackgroundIndicator
         */
         public static final int Theme_listChoiceBackgroundIndicator = 79;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:listDividerAlertDialog
+          @attr name com.example.beatthis:listDividerAlertDialog
         */
         public static final int Theme_listDividerAlertDialog = 44;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:listPopupWindowStyle
+          @attr name com.example.beatthis:listPopupWindowStyle
         */
         public static final int Theme_listPopupWindowStyle = 73;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4967,11 +4970,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:listPreferredItemHeight
+          @attr name com.example.beatthis:listPreferredItemHeight
         */
         public static final int Theme_listPreferredItemHeight = 67;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4983,11 +4986,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:listPreferredItemHeightLarge
+          @attr name com.example.beatthis:listPreferredItemHeightLarge
         */
         public static final int Theme_listPreferredItemHeightLarge = 69;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4999,11 +5002,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:listPreferredItemHeightSmall
+          @attr name com.example.beatthis:listPreferredItemHeightSmall
         */
         public static final int Theme_listPreferredItemHeightSmall = 68;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5015,11 +5018,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:listPreferredItemPaddingLeft
+          @attr name com.example.beatthis:listPreferredItemPaddingLeft
         */
         public static final int Theme_listPreferredItemPaddingLeft = 70;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5031,31 +5034,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:listPreferredItemPaddingRight
+          @attr name com.example.beatthis:listPreferredItemPaddingRight
         */
         public static final int Theme_listPreferredItemPaddingRight = 71;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#panelBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:panelBackground
+          @attr name com.example.beatthis:panelBackground
         */
         public static final int Theme_panelBackground = 76;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:panelMenuListTheme
+          @attr name com.example.beatthis:panelMenuListTheme
         */
         public static final int Theme_panelMenuListTheme = 78;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5067,171 +5070,171 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:panelMenuListWidth
+          @attr name com.example.beatthis:panelMenuListWidth
         */
         public static final int Theme_panelMenuListWidth = 77;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:popupMenuStyle
+          @attr name com.example.beatthis:popupMenuStyle
         */
         public static final int Theme_popupMenuStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:popupWindowStyle
+          @attr name com.example.beatthis:popupWindowStyle
         */
         public static final int Theme_popupWindowStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:radioButtonStyle
+          @attr name com.example.beatthis:radioButtonStyle
         */
         public static final int Theme_radioButtonStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:ratingBarStyle
+          @attr name com.example.beatthis:ratingBarStyle
         */
         public static final int Theme_ratingBarStyle = 103;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:searchViewStyle
+          @attr name com.example.beatthis:searchViewStyle
         */
         public static final int Theme_searchViewStyle = 66;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:selectableItemBackground
+          @attr name com.example.beatthis:selectableItemBackground
         */
         public static final int Theme_selectableItemBackground = 52;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:selectableItemBackgroundBorderless
+          @attr name com.example.beatthis:selectableItemBackgroundBorderless
         */
         public static final int Theme_selectableItemBackgroundBorderless = 53;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:spinnerDropDownItemStyle
+          @attr name com.example.beatthis:spinnerDropDownItemStyle
         */
         public static final int Theme_spinnerDropDownItemStyle = 47;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:spinnerStyle
+          @attr name com.example.beatthis:spinnerStyle
         */
         public static final int Theme_spinnerStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#switchStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:switchStyle
+          @attr name com.example.beatthis:switchStyle
         */
         public static final int Theme_switchStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:textAppearanceLargePopupMenu
+          @attr name com.example.beatthis:textAppearanceLargePopupMenu
         */
         public static final int Theme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:textAppearanceListItem
+          @attr name com.example.beatthis:textAppearanceListItem
         */
         public static final int Theme_textAppearanceListItem = 74;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:textAppearanceListItemSmall
+          @attr name com.example.beatthis:textAppearanceListItemSmall
         */
         public static final int Theme_textAppearanceListItemSmall = 75;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:textAppearanceSearchResultSubtitle
+          @attr name com.example.beatthis:textAppearanceSearchResultSubtitle
         */
         public static final int Theme_textAppearanceSearchResultSubtitle = 64;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:textAppearanceSearchResultTitle
+          @attr name com.example.beatthis:textAppearanceSearchResultTitle
         */
         public static final int Theme_textAppearanceSearchResultTitle = 63;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:textAppearanceSmallPopupMenu
+          @attr name com.example.beatthis:textAppearanceSmallPopupMenu
         */
         public static final int Theme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5239,11 +5242,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.example.awesomemusicselectorapp:textColorAlertDialogListItem
+          @attr name com.example.beatthis:textColorAlertDialogListItem
         */
         public static final int Theme_textColorAlertDialogListItem = 92;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5251,31 +5254,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.example.awesomemusicselectorapp:textColorSearchUrl
+          @attr name com.example.beatthis:textColorSearchUrl
         */
         public static final int Theme_textColorSearchUrl = 65;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:toolbarNavigationButtonStyle
+          @attr name com.example.beatthis:toolbarNavigationButtonStyle
         */
         public static final int Theme_toolbarNavigationButtonStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:toolbarStyle
+          @attr name com.example.beatthis:toolbarStyle
         */
         public static final int Theme_toolbarStyle = 57;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#windowActionBar}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5285,11 +5288,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:windowActionBar
+          @attr name com.example.beatthis:windowActionBar
         */
         public static final int Theme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5299,11 +5302,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:windowActionBarOverlay
+          @attr name com.example.beatthis:windowActionBarOverlay
         */
         public static final int Theme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5313,11 +5316,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:windowActionModeOverlay
+          @attr name com.example.beatthis:windowActionModeOverlay
         */
         public static final int Theme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5332,11 +5335,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:windowFixedHeightMajor
+          @attr name com.example.beatthis:windowFixedHeightMajor
         */
         public static final int Theme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5351,11 +5354,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:windowFixedHeightMinor
+          @attr name com.example.beatthis:windowFixedHeightMinor
         */
         public static final int Theme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5370,11 +5373,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:windowFixedWidthMajor
+          @attr name com.example.beatthis:windowFixedWidthMajor
         */
         public static final int Theme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5389,11 +5392,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:windowFixedWidthMinor
+          @attr name com.example.beatthis:windowFixedWidthMinor
         */
         public static final int Theme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5408,11 +5411,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:windowMinWidthMajor
+          @attr name com.example.beatthis:windowMinWidthMajor
         */
         public static final int Theme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5427,11 +5430,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:windowMinWidthMinor
+          @attr name com.example.beatthis:windowMinWidthMinor
         */
         public static final int Theme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5441,7 +5444,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:windowNoTitle
+          @attr name com.example.beatthis:windowNoTitle
         */
         public static final int Theme_windowNoTitle = 3;
         /** Attributes that can be used with a Toolbar.
@@ -5452,25 +5455,25 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription com.example.awesomemusicselectorapp:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon com.example.awesomemusicselectorapp:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd com.example.awesomemusicselectorapp:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft com.example.awesomemusicselectorapp:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight com.example.awesomemusicselectorapp:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart com.example.awesomemusicselectorapp:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight com.example.awesomemusicselectorapp:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription com.example.awesomemusicselectorapp:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon com.example.awesomemusicselectorapp:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme com.example.awesomemusicselectorapp:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle com.example.awesomemusicselectorapp:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.example.awesomemusicselectorapp:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title com.example.awesomemusicselectorapp:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom com.example.awesomemusicselectorapp:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd com.example.awesomemusicselectorapp:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart com.example.awesomemusicselectorapp:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop com.example.awesomemusicselectorapp:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins com.example.awesomemusicselectorapp:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance com.example.awesomemusicselectorapp:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription com.example.beatthis:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon com.example.beatthis:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd com.example.beatthis:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft com.example.beatthis:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight com.example.beatthis:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart com.example.beatthis:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight com.example.beatthis:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription com.example.beatthis:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon com.example.beatthis:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme com.example.beatthis:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle com.example.beatthis:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.example.beatthis:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title com.example.beatthis:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom com.example.beatthis:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd com.example.beatthis:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart com.example.beatthis:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop com.example.beatthis:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins com.example.beatthis:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance com.example.beatthis:titleTextAppearance}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -5515,7 +5518,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5525,21 +5528,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:collapseContentDescription
+          @attr name com.example.beatthis:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 18;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:collapseIcon
+          @attr name com.example.beatthis:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 17;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5551,11 +5554,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:contentInsetEnd
+          @attr name com.example.beatthis:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5567,11 +5570,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:contentInsetLeft
+          @attr name com.example.beatthis:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5583,11 +5586,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:contentInsetRight
+          @attr name com.example.beatthis:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5599,11 +5602,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:contentInsetStart
+          @attr name com.example.beatthis:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5615,11 +5618,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:maxButtonHeight
+          @attr name com.example.beatthis:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 16;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5629,31 +5632,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:navigationContentDescription
+          @attr name com.example.beatthis:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 20;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:navigationIcon
+          @attr name com.example.beatthis:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 19;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:popupTheme
+          @attr name com.example.beatthis:popupTheme
         */
         public static final int Toolbar_popupTheme = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5663,21 +5666,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:subtitle
+          @attr name com.example.beatthis:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:subtitleTextAppearance
+          @attr name com.example.beatthis:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#title}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5687,11 +5690,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:title
+          @attr name com.example.beatthis:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5703,11 +5706,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:titleMarginBottom
+          @attr name com.example.beatthis:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 15;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5719,11 +5722,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:titleMarginEnd
+          @attr name com.example.beatthis:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5735,11 +5738,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:titleMarginStart
+          @attr name com.example.beatthis:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 12;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5751,11 +5754,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:titleMarginTop
+          @attr name com.example.beatthis:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5767,17 +5770,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:titleMargins
+          @attr name com.example.beatthis:titleMargins
         */
         public static final int Toolbar_titleMargins = 11;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:titleTextAppearance
+          @attr name com.example.beatthis:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 9;
         /** Attributes that can be used with a View.
@@ -5788,11 +5791,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_backgroundTint com.example.awesomemusicselectorapp:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_backgroundTintMode com.example.awesomemusicselectorapp:backgroundTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd com.example.awesomemusicselectorapp:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart com.example.awesomemusicselectorapp:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme com.example.awesomemusicselectorapp:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_backgroundTint com.example.beatthis:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_backgroundTintMode com.example.beatthis:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.example.beatthis:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart com.example.beatthis:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme com.example.beatthis:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -5819,7 +5822,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#backgroundTint}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -5830,11 +5833,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:backgroundTint
+          @attr name com.example.beatthis:backgroundTint
         */
         public static final int View_backgroundTint = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -5850,11 +5853,11 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.example.awesomemusicselectorapp:backgroundTintMode
+          @attr name com.example.beatthis:backgroundTintMode
         */
         public static final int View_backgroundTintMode = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -5866,11 +5869,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:paddingEnd
+          @attr name com.example.beatthis:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -5882,17 +5885,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.awesomemusicselectorapp:paddingStart
+          @attr name com.example.beatthis:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.awesomemusicselectorapp.R.attr#theme}
+          <p>This symbol is the offset where the {@link com.example.beatthis.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.awesomemusicselectorapp:theme
+          @attr name com.example.beatthis:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewStubCompat.

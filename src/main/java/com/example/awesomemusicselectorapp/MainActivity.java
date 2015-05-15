@@ -36,57 +36,6 @@ public class MainActivity extends ActionBarActivity {
     }
 
     private void createListeners() {
-        /*b1.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startBeat(1, m1);
-            }
-        });
-        b2.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startBeat(2, m2);
-            }
-        });
-        b3.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startBeat(3, m3);
-            }
-        });
-        b4.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startBeat(4, m4);
-            }
-        });
-        b5.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startBeat(5, m5);
-            }
-        });
-        b6.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startBeat(6, m6);
-            }
-        });
-        b7.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startBeat(7, m7);
-            }
-        });
-        b8.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startBeat(8, m8);
-            }
-        });*/
-
-        // following crashes when button is released
-        // MotionEvent.ACTION_UP is not detected
 
         b1.setOnTouchListener(new View.OnTouchListener() {
             @Override
@@ -96,8 +45,10 @@ public class MainActivity extends ActionBarActivity {
                     m1 = MediaPlayer.create(MainActivity.this, beat);
                     m1.start();
                     m1.setLooping(true);
+                    b1.setPressed(true);
                     return true;
                 } else if (event.getAction() == MotionEvent.ACTION_UP) {
+                    b1.setPressed(false);
                     m1.release();
                 }
                 return false;
@@ -111,9 +62,11 @@ public class MainActivity extends ActionBarActivity {
                     m2 = MediaPlayer.create(MainActivity.this, beat);
                     m2.start();
                     m2.setLooping(true);
+                    b2.setPressed(true);
                     return true;
                 } else if (event.getAction() == MotionEvent.ACTION_UP) {
                     m2.release();
+                    b2.setPressed(false);
                 }
                 return false;
             }
@@ -126,9 +79,11 @@ public class MainActivity extends ActionBarActivity {
                     m3 = MediaPlayer.create(MainActivity.this, beat);
                     m3.start();
                     m3.setLooping(true);
+                    b3.setPressed(true);
                     return true;
                 } else if (event.getAction() == MotionEvent.ACTION_UP) {
                     m3.release();
+                    b3.setPressed(false);
                 }
                 return false;
             }
@@ -141,9 +96,11 @@ public class MainActivity extends ActionBarActivity {
                     m4 = MediaPlayer.create(MainActivity.this, beat);
                     m4.start();
                     m4.setLooping(true);
+                    b4.setPressed(true);
                     return true;
                 } else if (event.getAction() == MotionEvent.ACTION_UP) {
                     m4.release();
+                    b4.setPressed(false);
                 }
                 return false;
             }
@@ -156,9 +113,11 @@ public class MainActivity extends ActionBarActivity {
                     m5 = MediaPlayer.create(MainActivity.this, beat);
                     m5.start();
                     m5.setLooping(true);
+                    b5.setPressed(true);
                     return true;
                 } else if (event.getAction() == MotionEvent.ACTION_UP) {
                     m5.release();
+                    b5.setPressed(false);
                 }
                 return false;
             }
@@ -171,9 +130,11 @@ public class MainActivity extends ActionBarActivity {
                     m6 = MediaPlayer.create(MainActivity.this, beat);
                     m6.start();
                     m6.setLooping(true);
+                    b6.setPressed(true);
                     return true;
                 } else if (event.getAction() == MotionEvent.ACTION_UP) {
                     m6.release();
+                    b6.setPressed(false);
                 }
                 return false;
             }
@@ -186,9 +147,11 @@ public class MainActivity extends ActionBarActivity {
                     m7 = MediaPlayer.create(MainActivity.this, beat);
                     m7.start();
                     m7.setLooping(true);
+                    b7.setPressed(true);
                     return true;
                 } else if (event.getAction() == MotionEvent.ACTION_UP) {
                     m7.release();
+                    b7.setPressed(false);
                 }
                 return false;
             }
@@ -201,9 +164,11 @@ public class MainActivity extends ActionBarActivity {
                     m8 = MediaPlayer.create(MainActivity.this, beat);
                     m8.start();
                     m8.setLooping(true);
+                    b8.setPressed(true);
                     return true;
                 } else if (event.getAction() == MotionEvent.ACTION_UP) {
                     m8.release();
+                    b8.setPressed(false);
                 }
                 return false;
             }
