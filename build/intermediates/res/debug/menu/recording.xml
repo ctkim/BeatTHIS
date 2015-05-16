@@ -3,6 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.awesomemusicselectorapp.SecondActivity" >
 
+    <item android:id="@+id/action_stop"
+        android:icon="@drawable/ic_action_stop"
+        android:title="@string/stop"
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
@@ -10,4 +14,4 @@
         app:showAsAction="never"/>
 
 </menu>
-<!-- From: file:/C:/Users/Christine/Desktop/CHRISTINE/Computer%20Science/Android/BeatTHIS/app/src/main/res/menu/second.xml -->
+<!-- From: file:/C:/Users/Christine/Desktop/CHRISTINE/Computer%20Science/Android/BeatTHIS/app/src/main/res/menu/recording.xml -->

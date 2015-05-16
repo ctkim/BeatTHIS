@@ -1,37 +1,51 @@
 package com.example.awesomemusicselectorapp;
 
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.graphics.Typeface;
 import android.media.MediaPlayer;
+import android.media.MediaRecorder;
+import android.net.Uri;
+import android.os.Environment;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.util.Log;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.IOException;
 import java.util.ArrayList;
 
 
 public class MainActivity extends ActionBarActivity {
-	
+    private static final String LOG_TAG = "AudioRecord";
+
 	Button b1, b2, b3, b4, b5, b6, b7, b8;
-    private MediaPlayer m1, m2, m3, m4, m5, m6, m7, m8, songPlayer;
-    private ArrayList<String> mSongs;
+    private MediaPlayer m1, m2, m3, m4, m5, m6, m7, m8, songPlayer, samplePlayer;
+    private ArrayList<Song> mSongs;
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
     private ActionBarDrawerToggle mDrawerToggle;
     private CharSequence mTitle;
     private CharSequence mDrawerTitle;
+    private MediaRecorder mRecorder;
+    private boolean recording = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,12 +63,14 @@ public class MainActivity extends ActionBarActivity {
 
         mTitle = getTitle();
         mDrawerTitle = "Playlist";
-        mSongs = new ArrayList<String>();
-        // add sample song
-        mSongs.add("Sample Beat");
+        mSongs = new ArrayList<Song>();
+        // add sample beat
+        Song sample = new Song("Sample Beat", "no path");
+        mSongs.add(sample);
+
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mDrawerList = (ListView) findViewById(R.id.navList);
-        mDrawerList.setAdapter(new ArrayAdapter<String>(this,
+        mDrawerList.setAdapter(new ArrayAdapter<Song>(this,
                 R.layout.drawer_list_item, mSongs));
         // disable swipe to open
         mDrawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED);
@@ -202,7 +218,7 @@ public class MainActivity extends ActionBarActivity {
         b7.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
-                if(event.getAction() == MotionEvent.ACTION_DOWN) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN) {
                     int beat = getBeat(7);
                     m7 = MediaPlayer.create(MainActivity.this, beat);
                     m7.start();
@@ -219,7 +235,7 @@ public class MainActivity extends ActionBarActivity {
         b8.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
-                if(event.getAction() == MotionEvent.ACTION_DOWN) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN) {
                     int beat = getBeat(8);
                     m8 = MediaPlayer.create(MainActivity.this, beat);
                     m8.start();
@@ -262,11 +278,15 @@ public class MainActivity extends ActionBarActivity {
         return beat;
     }
 
+    // add action buttons
 	@Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
+        if (recording) {
+            getMenuInflater().inflate(R.menu.recording, menu);
+        } else {
+            getMenuInflater().inflate(R.menu.main, menu);
+        }
+        return super.onCreateOptionsMenu(menu);
     }
 
     @Override
@@ -275,14 +295,90 @@ public class MainActivity extends ActionBarActivity {
         if (mDrawerToggle.onOptionsItemSelected(item)) {
             return true;
         }
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
+        // handle action button presses
+        switch (item.getItemId()) {
+            case R.id.action_record:
+                userFileName();
+                return true;
+            case R.id.action_stop:
+                stopRecording();
+                return true;
+            case R.id.action_settings:
+                Toast.makeText(MainActivity.this,
+                        "No settings available at this time.",
+                        Toast.LENGTH_SHORT).show();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
         }
-        return super.onOptionsItemSelected(item);
+    }
+
+    private void stopRecording() {
+        // update action bar with play button
+        recording = false;
+        invalidateOptionsMenu();
+
+        mRecorder.stop();
+        mRecorder.release();
+        mRecorder = null;
+    }
+
+    private void startRecording() {
+        Song song = mSongs.get(mSongs.size() - 1);
+        String mFileName = song.getPath();
+
+        mRecorder = new MediaRecorder();
+        mRecorder.setAudioSource(MediaRecorder.AudioSource.DEFAULT);
+        mRecorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
+        mRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
+        mRecorder.setOutputFile(mFileName);
+        try {
+            mRecorder.prepare();
+        } catch (IOException e) {
+            Log.e(LOG_TAG, "prepare() failed while preparing " + mFileName);
+        }
+        // update action bar with stop button
+        recording = true;
+        invalidateOptionsMenu();
+
+        Toast.makeText(MainActivity.this, "Recording...", Toast.LENGTH_SHORT).show();
+        mRecorder.start();
+    }
+
+    // prompt user for file name
+    private void userFileName() {
+        AlertDialog.Builder alert = new AlertDialog.Builder(this);
+        alert.setTitle("Type the name of your new dope beat:");
+        final EditText input = new EditText(MainActivity.this);
+        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.MATCH_PARENT);
+        input.setLayoutParams(lp);
+        alert.setView(input);
+
+        alert.setPositiveButton("Aight LEGGO", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                String name = input.getText().toString();
+                createSong(name);
+                startRecording();
+            }
+        });
+        alert.create().show();
+    }
+
+    // make new song from recording and add to arraylist of songs
+    // refreshes listview in nav drawer to update playlist
+    private void createSong(String name) {
+        name = name.trim();
+        String path = Environment.getExternalStorageDirectory().getAbsolutePath();
+        String n = name.toLowerCase().replace(" ", "_");
+        path += "/" + n + ".3gp";
+        Song song = new Song(name, path);
+        mSongs.add(song);
+
+        mDrawerList.setAdapter(new ArrayAdapter<Song>(this,
+                R.layout.drawer_list_item, mSongs));
     }
 
     @Override
@@ -303,6 +399,14 @@ public class MainActivity extends ActionBarActivity {
         private DrawerLayout mDrawerLayout;
         @Override
         public void onItemClick(AdapterView parent, View view, int position, long id) {
+            if (songPlayer!=null && songPlayer.isPlaying()) {
+                songPlayer.stop();
+                songPlayer.release();
+            }
+            if (samplePlayer!=null && samplePlayer.isPlaying()) {
+                samplePlayer.stop();
+                samplePlayer.release();
+            }
             Toast.makeText(MainActivity.this, "Playing song...", Toast.LENGTH_SHORT).show();
             playSong(position);
             mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -314,26 +418,53 @@ public class MainActivity extends ActionBarActivity {
     // plays selected song from nav menu
     // position is index in Arraylist mSongs
     private void playSong(int position) {
-        //String songName = mSongs.get(position);
-        songPlayer = MediaPlayer.create(MainActivity.this, R.raw.sample_beat);
-        songPlayer.start();
+        if (position==0) {
+            samplePlayer  = MediaPlayer.create(this, R.raw.sample_beat);
+            samplePlayer.start();
+        } else {
+            String songPath = mSongs.get(position).getPath();
+            songPlayer = new MediaPlayer();
+            try {
+                songPlayer.setDataSource(songPath);
+                songPlayer.prepare();
+                songPlayer.start();
+            } catch (IOException e) {
+                Log.e(LOG_TAG, "prepare() failed");
+            }
+        }
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        if (songPlayer.isPlaying()) {
-            songPlayer.stop();
+        if (songPlayer != null) {
             songPlayer.release();
+            songPlayer = null;
+        }
+        if (mRecorder != null) {
+            mRecorder.release();
+            mRecorder = null;
+        }
+        if (samplePlayer != null) {
+            samplePlayer.release();
+            samplePlayer = null;
         }
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        if (songPlayer.isPlaying()) {
-            songPlayer.stop();
+        if (songPlayer != null) {
             songPlayer.release();
+            songPlayer = null;
+        }
+        if (mRecorder != null) {
+            mRecorder.release();
+            mRecorder = null;
+        }
+        if (samplePlayer != null) {
+            samplePlayer.release();
+            samplePlayer = null;
         }
     }
 }

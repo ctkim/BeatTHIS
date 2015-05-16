@@ -1515,8 +1515,10 @@ containing a value of this type.
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020039;
         public static final int abc_textfield_search_material=0x7f02003a;
         public static final int custom_button=0x7f02003b;
-        public static final int ic_drawer=0x7f02003c;
-        public static final int ic_launcher=0x7f02003d;
+        public static final int ic_action_mic=0x7f02003c;
+        public static final int ic_action_stop=0x7f02003d;
+        public static final int ic_drawer=0x7f02003e;
+        public static final int ic_launcher=0x7f02003f;
     }
     public static final class id {
         public static final int action_bar=0x7f0d0040;
@@ -1532,7 +1534,9 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0d003d;
         public static final int action_mode_bar_stub=0x7f0d003c;
         public static final int action_mode_close_button=0x7f0d0025;
-        public static final int action_settings=0x7f0d005a;
+        public static final int action_record=0x7f0d005a;
+        public static final int action_settings=0x7f0d005b;
+        public static final int action_stop=0x7f0d005c;
         public static final int activity_chooser_view_content=0x7f0d0026;
         public static final int alertTitle=0x7f0d0030;
         public static final int always=0x7f0d0016;
@@ -1651,7 +1655,7 @@ containing a value of this type.
     }
     public static final class menu {
         public static final int main=0x7f0e0000;
-        public static final int second=0x7f0e0001;
+        public static final int recording=0x7f0e0001;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
@@ -1692,7 +1696,9 @@ containing a value of this type.
         public static final int drawer_open=0x7f070014;
         public static final int hello_world=0x7f070015;
         public static final int playlist=0x7f070016;
-        public static final int title_activity_second=0x7f070017;
+        public static final int record=0x7f070017;
+        public static final int stop=0x7f070018;
+        public static final int title_activity_second=0x7f070019;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f09006c;
