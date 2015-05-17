@@ -3,6 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.awesomemusicselectorapp.MainActivity" >
 
+    <item android:id="@+id/action_place"
+        android:icon="@drawable/ic_action_place"
+        android:title="Find recording studios"
+        app:showAsAction="ifRoom" />
     <item android:id="@+id/action_record"
         android:icon="@drawable/ic_action_mic"
         android:title="@string/record"

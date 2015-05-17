@@ -3,6 +3,7 @@ package com.example.awesomemusicselectorapp;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.graphics.Typeface;
@@ -303,6 +304,9 @@ public class MainActivity extends ActionBarActivity {
             case R.id.action_stop:
                 stopRecording();
                 return true;
+            case R.id.action_place:
+                loadMap();
+                return true;
             case R.id.action_settings:
                 Toast.makeText(MainActivity.this,
                         "No settings available at this time.",
@@ -311,6 +315,12 @@ public class MainActivity extends ActionBarActivity {
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    // sends intent to start map activity
+    private void loadMap() {
+        Intent intent = new Intent(this, MapPane.class);
+        startActivity(intent);
     }
 
     private void stopRecording() {
