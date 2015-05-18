@@ -314,7 +314,7 @@ available. Please contact the developer for assistance.</string>
     <string name="store_picture_title">Save image</string>
     <!-- From: file:/C:/Users/Christine/Desktop/CHRISTINE/Computer%20Science/Android/BeatTHIS/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="title_activity_map_pane">MapPane</string>
+    <string name="title_activity_map_pane">Recoding Studios Near You</string>
     <string name="title_activity_second">SecondActivity</string>
     <!-- From: file:/C:/Users/Christine/Desktop/CHRISTINE/Computer%20Science/Android/BeatTHIS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.3.0/res/values/wallet_strings.xml -->
     <eat-comment/>

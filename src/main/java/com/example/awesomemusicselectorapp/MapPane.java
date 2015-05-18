@@ -54,7 +54,7 @@ public class MapPane extends ActionBarActivity implements OnMapReadyCallback{
         // You can customize the marker image using images bundled with
         // your app, or dynamically generated bitmaps.
         map.addMarker(new MarkerOptions()
-                .icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_action_star))
+                .icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_record))
                 .anchor(0.0f, 1.0f) // Anchors the marker on the bottom left
                 .position(new LatLng(41.889, -87.622)));
     }
