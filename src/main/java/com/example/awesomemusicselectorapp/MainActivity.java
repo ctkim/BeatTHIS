@@ -16,6 +16,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.util.Log;
+import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -30,6 +31,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -73,6 +75,7 @@ public class MainActivity extends ActionBarActivity {
         mDrawerList = (ListView) findViewById(R.id.navList);
         mDrawerList.setAdapter(new ArrayAdapter<Song>(this,
                 R.layout.drawer_list_item, mSongs));
+        registerForContextMenu(mDrawerList);
         // disable swipe to open
         mDrawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED);
         setupDrawer();
@@ -82,6 +85,27 @@ public class MainActivity extends ActionBarActivity {
         getSupportActionBar().setHomeButtonEnabled(true);
 
         createListeners();
+    }
+
+    @Override
+    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
+        menu.add(0, v.getId(), 0, "delete");
+    }
+
+    @Override
+    public boolean onContextItemSelected(MenuItem item) {
+        AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo)item.getMenuInfo();
+        int position = info.position;
+        Song song = mSongs.get(position);
+        if (!song.toString().equals("Sample Beat")) {
+            String path = song.getPath();
+            (new File(path)).delete();
+        }
+        mSongs.remove(position);
+        mDrawerList.setAdapter(new ArrayAdapter<Song>(this,
+                R.layout.drawer_list_item, mSongs));
+        Toast.makeText(MainActivity.this, "Deleted.", Toast.LENGTH_SHORT).show();
+        return true;
     }
 
     // make hamburger icon
@@ -319,8 +343,13 @@ public class MainActivity extends ActionBarActivity {
 
     // sends intent to start map activity
     private void loadMap() {
-        Intent intent = new Intent(this, MapPane.class);
-        startActivity(intent);
+        //Intent intent = new Intent(this, MapPane.class);
+        //startActivity(intent);
+        // starts googlemaps app
+        Uri gmmIntentUri = Uri.parse("geo:0,0?q=recording studio");
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+        mapIntent.setPackage("com.google.android.apps.maps");
+        startActivity(mapIntent);
     }
 
     private void stopRecording() {
